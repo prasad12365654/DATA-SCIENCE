@@ -1,0 +1,88 @@
+Step 1: Load the Dataset
+Objective: Import the dataset into the workspace.
+
+Details: Use Python libraries like pandas to read a CSV file or similar formats. If the dataset is hosted online, libraries like Seaborn allow direct loading (when internet access is available).
+
+Step 2: Understand the Data Structure
+Objective: Get an initial understanding of the dataset's contents.
+
+Actions:
+
+Inspect Columns: Identify the variables (e.g., age, fare, survived).
+
+Check Data Types: Ensure the data types (numeric, categorical, datetime) are correct.
+
+Summary Statistics: Look at measures like mean, median, mode, and standard deviation.
+
+Step 3: Data Cleaning
+Objective: Ensure the dataset is accurate, consistent, and complete.
+
+Common Issues:
+
+Missing Values:
+
+Replace missing numerical values (e.g., age) with the mean or median.
+
+Replace missing categorical values (e.g., embarked) with the mode or a specific label.
+
+Duplicate Rows:
+
+Identify and remove duplicate rows if they exist.
+
+Outliers:
+
+Detect unusual values in numeric columns like fare or age using visualization or statistics.
+
+Incorrect Data Types:
+
+Convert columns like age or fare to numeric if needed.
+
+Step 4: Exploratory Data Analysis (EDA)
+EDA explores relationships, trends, and distributions.
+
+Univariate Analysis (Single Variable)
+Goal: Understand the distribution of individual columns.
+
+Techniques:
+
+Histograms (e.g., for age distribution).
+
+Bar charts (e.g., for sex or class frequencies).
+
+Boxplots (e.g., to identify age outliers).
+
+Bivariate Analysis (Two Variables)
+Goal: Explore relationships between two variables.
+
+Examples:
+
+Categorical vs Numerical:
+
+Compare fare (numerical) across class (categorical) using boxplots.
+
+Categorical vs Categorical:
+
+Use stacked bar charts to analyze survival (survived) across genders (sex).
+
+Numerical vs Numerical:
+
+Create scatter plots for variables like age and fare.
+
+Multivariate Analysis (Multiple Variables)
+Goal: Understand relationships involving more than two variables.
+
+Example:
+
+Analyze how survived depends on class and sex using heatmaps or grouped bar charts.
+
+Step 5: Identify Trends and Patterns
+Objective: Summarize findings and draw insights.
+
+Examples:
+
+Were women and children more likely to survive?
+
+Did higher fares correlate with survival rates?
+
+How did survival vary across passenger classes?
+
