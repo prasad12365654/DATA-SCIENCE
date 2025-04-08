@@ -1,0 +1,46 @@
+Let’s break down the histogram step by step:
+
+1. Data:
+The data represents the ages of 200 individuals, ranging between 10 and 80 years.
+
+This dataset is grouped into intervals or "bins" to summarize the distribution.
+
+2. Bins:
+Each bar (bin) covers a specific age range, such as 10–15, 15–20, and so on.
+
+The number of bins (14 in this case) determines the granularity of the age distribution. More bins show finer details; fewer bins provide a broader overview.
+
+3. X-axis (Age):
+The x-axis represents the range of ages. For example:
+
+The first bin corresponds to ages 10–15.
+
+The second bin corresponds to ages 15–20.
+
+This pattern continues up to 75–80.
+
+4. Y-axis (Frequency):
+The y-axis indicates the number of individuals within each age range.
+
+For example:
+
+If a bar has a height of 20, it means there are 20 individuals in that age range.
+
+5. Bar Height:
+Each bar's height shows how many people belong to the corresponding age range.
+
+Taller bars mean more individuals in that range; shorter bars mean fewer.
+
+6. Design Choices:
+Color: The bars are filled with a light blue color for clarity.
+
+Edges: Black edges around the bars help distinguish them.
+
+Gridlines: Horizontal gridlines improve readability.
+
+7. Insights:
+The histogram visually highlights patterns, such as:
+
+Age ranges with the highest or lowest number of individuals.
+
+Whether the distribution is uniform, skewed, or clustered around certain ages.
